@@ -1,7 +1,7 @@
 {:lein true
- :source-paths ["src"]
- :dependencies [[binaryage/devtools "1.0.6"]
-                [reagent "1.1.1"]]
+;; :source-paths ["src"]
+;; :dependencies [[binaryage/devtools "1.0.6"]
+;;                [reagent "1.1.1"]]
  :dev-http {8700 "public"}
  :builds
  {:app {:target :browser
