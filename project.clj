@@ -6,7 +6,7 @@
                  [binaryage/devtools "1.0.6"]
                  [reagent "1.1.1"]]
   :source-paths ["src"]
-  :main ^:skip-aot shadow-lein.server
+  :main ^:skip-aot main.server
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})

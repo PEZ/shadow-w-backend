@@ -7,3 +7,4 @@ package-lock.json
 **/.shadow-cljs
 .lein*
 .nrepl-port
+**/.cpcache

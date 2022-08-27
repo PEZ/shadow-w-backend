@@ -1,4 +1,4 @@
-(ns shadow-lein.core
+(ns main.core
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]))
 
