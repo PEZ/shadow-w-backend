@@ -2,7 +2,7 @@
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]))
 
-(defonce app-state (r/atom {:text "Hello world!"}))
+(defonce app-state (r/atom {:text "shadow-cljs is running and watching! 💪"}))
 
 (defn hello-world []
   [:div
