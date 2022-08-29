@@ -83,7 +83,7 @@ main.server=>
 
 (Not needed if if you started the REPL using the shadow-cljs executable.)
 
-```
+``` clojure
 user=> (do (require 'shadow.cljs.devtools.server) (shadow.cljs.devtools.server/start!))
 shadow-cljs - HTTP server available at http://localhost:8700
 shadow-cljs - server version: 2.19.9 running at http://localhost:9632
@@ -100,7 +100,7 @@ At this point the shadow-cljs dev browser is running and serving on port 8700, b
 
 (The `require` is not needed if you started the REPL with the shadow-cljs executable.)
 
-```
+``` clojure
 user=> (do (require 'shadow.cljs.devtools.api) (shadow.cljs.devtools.api/watch :app))
 [:app] Configuring build.
 [:app] Compiling ...
@@ -119,7 +119,7 @@ Confirm that the shadow-cljs watcher is running by editing some hiccup in `src/m
 
 (The `require` is not needed if you started the REPL with the shadow-cljs executable.)
 
-```
+``` clojure
 user=> (do (require 'shadow.cljs.devtools.api) (shadow.cljs.devtools.api/nrepl-select :app))
 To quit, type: :cljs/quit
 [:selected :app]
